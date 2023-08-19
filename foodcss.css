@@ -1,0 +1,235 @@
+
+body 
+{
+   background-color: black;
+height: 100%;
+width:99%;    
+}
+
+.top
+{
+    background-color: rgb(109, 192, 109);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10%;  
+    justify-content: space-evenly;
+
+    padding-top: 0;
+  
+    font-size: larger;  
+
+}
+
+.logo
+{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}  
+.space
+{   
+    width:800px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.menu
+{  float: right;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.search
+{
+    display: flex;
+    flex-direction: row;
+    background-image: url(food.jpg);
+    opacity: 0.7;
+    background-size: contain;
+    align-items: center;
+    justify-content: space-between;
+
+  
+
+
+}
+#search 
+{ 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 10.5rem;
+    padding-left: 21rem;
+   font-size: large;
+   text-decoration-color: black;
+  background-color: whitesmoke;
+    border-radius: 50px;
+    border: 2px solid rgb(57, 194, 116);
+    width:1000px;
+    height:50px;
+   opacity: 1;
+   
+}
+#submit
+{
+
+  background: #226d37;
+  color: #f7f7f7;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 18px;
+  border-radius: 25px;
+  transition: background-color 1s;
+}
+.cuisines
+{margin-top: 0;
+    background-color: rgb(229, 90, 90);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    justify-content: space-evenly;
+    
+
+}
+#mughlai
+{
+    font-size: 40;
+    border-radius: 10px;
+    margin: 2%;
+    width: 300px;
+    height:200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(mughlai.jpg);
+    background-size: cover ;
+    opacity: 0.6;
+background-position: center;
+    cursor: pointer;
+    transition: width 1s, height 1s, font 1s;
+  
+
+}
+#mughlai:hover {width:350px; height:300px; font-size: 50;}
+#asian
+{
+    font-size: 40;
+
+    border-radius: 10px;
+    margin: 2%;
+    width: 300px;
+    height:200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(asian.jpg);
+    background-size: cover ;
+    opacity: 0.6;
+background-position: center;
+    cursor: pointer;
+    transition: width 1s, height 1s, font 1s;
+  
+
+}
+#asian:hover {width:350px; height:300px; font-size: 50;}
+#italian
+{
+    font-size: 40;
+
+    border-radius: 10px;
+    margin: 2%;
+    width: 300px;
+    height:200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(italian.jpg);
+    background-size: cover ;
+    opacity: 0.6;
+background-position: center;
+    cursor: pointer;
+    transition: width 1s, height 1s, font 1s;
+  
+
+}
+#italian:hover {width:350px; height:300px; font-size: 50;}
+.dishes
+{
+    background-color: rgb(217, 129, 74);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 200%;
+    justify-content: space-evenly;
+    font-size: larger;
+
+}
+.dishes1
+{
+    background-color: rgb(217, 129, 74);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    column-gap: 10px;
+
+}
+.dishes2
+{
+    
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    border: 1px solid green;
+    margin: 50px;
+
+}
+.img
+{
+    object-fit: contain;
+   
+}
+.dishes3
+{
+    background-color: rgb(217, 129, 74);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    justify-content: space-evenly;
+
+}
+
+
+#img2
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#button
+{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+}
+#button:hover {width:250px;}  
+.contact
+{
+    width: 100%;
+    height: 30%;
+}
